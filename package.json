@@ -1,0 +1,26 @@
+{
+  "name": "bookmakers-links-scraper",
+  "version": "1.0.0",
+  "description": "Welcome aboard!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ermander/bookmakers-links-scraper.git"
+  },
+  "author": "Emanuele Bertuol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ermander/bookmakers-links-scraper/issues"
+  },
+  "homepage": "https://github.com/ermander/bookmakers-links-scraper#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chromedriver": "^103.0.0",
+    "jsdom": "^20.0.0",
+    "selenium-webdriver": "^4.3.0"
+  }
+}
