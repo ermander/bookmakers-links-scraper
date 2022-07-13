@@ -1,6 +1,6 @@
 const urls = require("./urls.json")
 
-async function pokerstarsLinks(driver, By, until) {
+async function pokerstarsLinks(driver, By, until, axios) {
   const competitions = {
     soccer: [],
     tennis: [],
